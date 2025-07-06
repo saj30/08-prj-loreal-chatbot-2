@@ -19,50 +19,47 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <!-- Add the L'Oréal logo above the title -->
-        <img src="img/loreal-logo.png" alt="L'Oréal Paris" class="site-logo" />
-        <h1 class="site-title">Smart Product Advisor</h1>
+      <!-- Add the L'Oréal logo above the title -->
+      <img src="img/loreal-logo.png" alt="L'Oréal Paris" class="site-logo" />
+      <h1 class="site-title">Smart Product Advisor</h1>
       </header>
 
       <!------- Chat Area ------->
       <main>
-        <section class="chatbox">
-          <div id="chatWindow" class="chat-window">
-            <!-- messages will be appended here via JS -->
-          </div>
+      <section class="chatbox">
+        <div id="chatWindow" class="chat-window">
+        <!-- messages will be appended here via JS -->
+        </div>
 
-          <form id="chatForm" class="chat-form">
-            <label for="userInput" class="visually-hidden">Message</label>
-            <input
-              id="userInput"
-              name="userInput"
-              type="text"
-              placeholder="Ask me about products or routines…"
-              autocomplete="off"
-              required
-            />
-            <button type="submit" id="sendBtn">
-              <span class="material-icons">send</span>
-              <span class="visually-hidden">Send</span>
-            </button>
-          </form>
-        </section>
+        <form id="chatForm" class="chat-form">
+        <label for="userInput" class="visually-hidden">Message</label>
+        <input
+          id="userInput"
+          name="userInput"
+          type="text"
+          placeholder="Ask me about products or routines…"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" id="sendBtn">
+          <span class="material-icons">send</span>
+          <span class="visually-hidden">Send</span>
+        </button>
+        </form>
+      </section>
       </main>
 
-      <!------- Footer Links ------->
+      <!------- Footer ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
-        <nav>
-          <!-- These URLs are placeholders -->
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">Contact</a>
-        </nav>
+      <nav>
+        <a href="https://www.loreal.com/en/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
+        <a href="https://www.loreal.com/en/terms-and-conditions/" target="_blank" rel="noopener">Terms of Use</a>
+        <a href="https://www.loreal.com/en/contact/" target="_blank" rel="noopener">Contact</a>
+      </nav>
+      <p>&copy; 2024 <a href="https://www.loreal.com/en/" target="_blank" rel="noopener">L'Oréal</a>. All rights reserved.</p>
       </footer>
     </div>
 
-    <!-- secrets.js can be removed when using Cloudflare Workers for API requests -->
-    <script src="secrets.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
